@@ -9,7 +9,9 @@ exports.handler = async (event, context) => {
   return {
     statusCode: 200,
     body: JSON.stringify({ 
+      httpMethod: event.httpMethod,
       parameters: event.queryStringParameters,
+      body: event.body || 'NO BODY',
       url: event.rawUrl,
       headers: event.headers,
       memory: context.memoryLimitInMB,

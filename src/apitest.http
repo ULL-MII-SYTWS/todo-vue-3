@@ -2,7 +2,24 @@
 get {{url}}/hello
   ?a=4
   &pageSize=10
+content-type: application/json
+
+{
+  title: "Tutu",
+  name: "Toto",
+}
+
 
 ###
 
 get {{url}}/addtask
+
+###
+
+POST {{url}}/hello 
+content-type: application/json
+
+{
+  title: "Tutu",
+  name: "Toto",
+}
