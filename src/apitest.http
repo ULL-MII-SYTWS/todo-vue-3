@@ -1,0 +1,8 @@
+@url=http://localhost:8888/.netlify/functions/
+get {{url}}/hello
+  ?a=4
+  &pageSize=10
+
+###
+
+get {{url}}/addtask

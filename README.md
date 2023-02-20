@@ -1,4 +1,19 @@
-# todo-vue
+## Netlify Functions adn Vue 3 with this TODO demo 
+
+Main reference: [FREE API Hosting! Easy Serverless APIs with Netlify Functions & JavaScript!](https://youtu.be/vEFJZ9rSSNM)
+
+## TOML file
+
+[TOML](https://toml.io/en/v1.0.0) es un formato de archivo de configuración  como los .INI.
+"TOML" es un acrónimo de "Tom's Obvious, Minimal Language"​ que hace referencia a su creador: Tom Preston-Werner.
+
+## REST client for VS Code
+
+## FaunaDB
+
+
+
+## todo-vue
 
 Sample todo app built with the Vue framework.
 For the accompanying documentation, see
